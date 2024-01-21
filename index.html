@@ -271,33 +271,26 @@
                     have suffered alteration in some form, by injected humour.</p>
             </div>
 
-            <!-- client say carousel -->
-            <div class="carousel w-full">
+            <!-- client say carousel or slider -->
+            <div class="carousel">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <img src="images/banner.png" class="w-full" />
+                    <img src="images/slider-1.jpg" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <img src="images/banner.png" class="w-full" />
+                    <img src="images/slider-2.jpg" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
-                    <img src="images/banner.png" class="w-full" />
+                    <img src="images/slider-3.jpg" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide4" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                    <img src="images/banner.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
                 </div>
@@ -420,31 +413,69 @@
                 <div class="flex-1">
                     <form class="card-body space-y-6">
                         <div class="form-control">
-                            <input type="text" placeholder="Your Name" class="input font-poppins text-[#F3F3F3] bg-[#F3F3F3]" required />
+                            <input type="text" placeholder="Your Name"
+                                class="input font-poppins text-[#F3F3F3] bg-[#F3F3F3]" required />
                         </div>
 
                         <div class="form-control">
-                            <input type="email" placeholder="Your Email" class="input font-poppins text-[#F3F3F3] bg-[#F3F3F3]" required />
+                            <input type="email" placeholder="Your Email"
+                                class="input font-poppins text-[#F3F3F3] bg-[#F3F3F3]" required />
                         </div>
 
                         <div class="form-control">
-                            <input type="text" placeholder="Subject" class="input font-poppins text-[#F3F3F3] bg-[#F3F3F3]" required />
+                            <input type="text" placeholder="Subject"
+                                class="input font-poppins text-[#F3F3F3] bg-[#F3F3F3]" required />
                         </div>
 
                         <div class="form-control">
-                            <textarea class="textarea font-poppins text-[#F3F3F3] bg-[#F3F3F3]" placeholder="Your Message"></textarea>
+                            <textarea class="textarea font-poppins text-[#F3F3F3] bg-[#F3F3F3]"
+                                placeholder="Your Message"></textarea>
                         </div>
 
                         <div class="form-control">
-                            <button class="btn bg-color-primary text-white font-semibold hover:bg-[#917048] duration-500">Send Message</button>
+                            <button
+                                class="btn bg-color-primary text-white font-semibold hover:bg-[#917048] duration-500">Send
+                                Message</button>
                         </div>
                     </form>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="footer p-10 bg-black text-base-content">
+        <nav class="text-white">
+            <header class="footer-title"><img src="images/logo.png" alt=""></header>
+            <p>There are many variations of passages <br> of Lorem Ipsum available, <br>but the majority have suffered
+                alteration in <br>some form, by injected humour.</p>
+        </nav>
+        <nav class="text-white">
+            <header class="footer-title">Use-full Link</header>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Cases</a>
+            <a class="link link-hover">Blog</a>
+        </nav>
+        <nav class="text-white">
+            <header class="footer-title">Contact Now</header>
+            <p>555 4th 5t NW, Washington <br>
+                DC 20530, United States</p>
+            <p>+88 01750 000 000 <br>
+                +88 01750 000 000</p>
+            <p>info@gmail.com <br>
+                info@gmail.com</p>
+        </nav>
+        <form class="text-white">
+            <header class="footer-title">Subscribe</header>
+            <fieldset class="form-control w-80">
+                <label class="label">
+                    <span class="label-text text-white">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</span>
+                </label>
+                <div class="join">
+                    <input type="text" placeholder="username@site.com" class="input text-black input-bordered join-item text-opacity-70" />
+                    <button class="btn bg-color-primary text-white font-semibold hover:bg-[#917048] duration-500 join-item border-none"><img src="images/Frame (2).svg" alt=""></button>
+                </div>
+            </fieldset>
+        </form>
     </footer>
 </body>
 
